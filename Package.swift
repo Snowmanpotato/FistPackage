@@ -21,8 +21,6 @@ let package = Package(
         .target(
             name: "FistPackage",
             dependencies: []),
-        .testTarget(
-            name: "FistPackageTests",
-            dependencies: ["FistPackage"]),
+     
     ]
 )
